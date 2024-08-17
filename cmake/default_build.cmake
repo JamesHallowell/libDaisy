@@ -1,4 +1,4 @@
-add_subdirectory(${LIBDAISY_DIR} libdaisy)
+add_subdirectory(${LIBDAISY_DIR} libdaisy SYSTEM)
 if (${DAISYSP_DIR})
   add_subdirectory(${DAISYSP_DIR} DaisySP)
   set(DAISYSP_LIB DaisySP)
